@@ -1,0 +1,32 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "python": "/home/e104/anaconda3/envs/bevformer/bin/python3.8",
+            "name": "Test_newscenes_model",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "/home/e104/anaconda3/envs/bevformer/lib/python3.8/site-packages/torch/distributed/launch.py",
+            "console": "integratedTerminal",
+            "justMyCode": false, //这里默认True
+            "cwd": "/mnt/zhenglianqing/Doracamom/",
+            "env":{"CUDA_VISIBLE_DEVICES":"0,1,2","PYTHONPATH":"./"},
+            "args": [
+                "--master_port","12813",
+                "--nproc_per_node","1",
+                "tools/test.py",
+                    
+                    
+                    "projects/configs/Doracamom/Doracamom.py",
+                    "ckpts/doracamom_omnihd.pth",
+                    
+                    "--launcher", "pytorch",
+                    "--eval","bbox"
+            ]
+        },
+    ]
+}
