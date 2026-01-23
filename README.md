@@ -30,7 +30,7 @@
 ## 🔥 News
 • **[2026-01-22]** 🚀 Our codebase and models have been released.
 
-• **[2026-01-19]** 🎉🎉🎉 Our paper have been accepted by IEEE TCSVT.
+• **[2026-01-19]** 🎉🎉🎉 Our paper have been accepted by [IEEE TCSVT](https://ieeexplore.ieee.org/document/11361108).
 
 • **[2025-01-26]** 🌐 The paper has been submitted to [ArXiv](https://arxiv.org/abs/2501.15394v3).
 
@@ -150,10 +150,13 @@ If you have any questions about the repo, feel free to cantact us with tjradarla
 # 📃 Citation
 If you find this project useful in your research, please consider citing:
 ```
-@article{zheng2025doracamom,
-  title={Doracamom: Joint 3D Detection and Occupancy Prediction with Multi-view 4D Radars and Cameras for Omnidirectional Perception},
+@ARTICLE{11361108,
   author={Zheng, Lianqing and Liu, Jianan and Guan, Runwei and Yang, Long and Lu, Shouyi and Li, Yuanzhe and Bai, Xiaokai and Bai, Jie and Ma, Zhixiong and Shen, Hui-Liang and Zhu, Xichan},
-  journal={arXiv preprint},
-  year={2025}
-}
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Doracamom: Joint 3D Detection and Occupancy Prediction with Multi-view 4D Radars and Cameras for Omnidirectional Perception}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TCSVT.2026.3657111}}
 ```
